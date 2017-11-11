@@ -11,10 +11,5 @@
 |
 */
 
-Route::get('/logs', [
-    'uses' => '\Melihovv\LaravelLogViewer\LaravelLogViewerController@index',
-    'as' => 'logs',
-]);
-
 Route::get('/', 'ImagesController@index')
     ->name('images.index');
