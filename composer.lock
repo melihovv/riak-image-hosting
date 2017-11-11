@@ -4,8 +4,71 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "23faad5f40439aec22f8fbc257a4539c",
+    "content-hash": "d0803e4864e8b0a4be7195603f20c502",
     "packages": [
+        {
+            "name": "basho/riak",
+            "version": "3.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/basho/riak-php-client.git",
+                "reference": "3f223a5e5a9199d6fe3dc0c8df79eb87cd36ec23"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/basho/riak-php-client/zipball/3f223a5e5a9199d6fe3dc0c8df79eb87cd36ec23",
+                "reference": "3f223a5e5a9199d6fe3dc0c8df79eb87cd36ec23",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-json": "*",
+                "php": ">=5.4"
+            },
+            "require-dev": {
+                "apigen/apigen": "4.1.*",
+                "phpunit/phpunit": "4.8.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Basho\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Christopher Mancini",
+                    "email": "cmancini@basho.com",
+                    "homepage": "https://github.com/christophermancini",
+                    "role": "Lead Developer"
+                },
+                {
+                    "name": "Alex Moore",
+                    "email": "amoore@basho.com",
+                    "homepage": "https://github.com/alexmoore",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Official Riak client for PHP",
+            "homepage": "http://basho.com/riak/",
+            "keywords": [
+                "basho",
+                "client",
+                "crdt",
+                "data",
+                "database",
+                "datatype",
+                "driver",
+                "kv",
+                "nosql",
+                "riak"
+            ],
+            "time": "2017-04-06T13:09:40+00:00"
+        },
         {
             "name": "dnoegel/php-xdg-base-dir",
             "version": "0.1",
