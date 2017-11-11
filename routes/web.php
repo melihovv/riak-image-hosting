@@ -13,3 +13,9 @@
 
 Route::get('/', 'ImagesController@index')
     ->name('images.index');
+
+Route::post('/', 'ImagesController@store')
+    ->name('images.store');
+
+Route::get('/{image}', 'ImagesController@show')
+    ->name('images.show');
