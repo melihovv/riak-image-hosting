@@ -16,4 +16,5 @@ Route::get('/logs', [
     'as' => 'logs',
 ]);
 
-Route::get('/', 'HomeController@index')->name('home');
+Route::get('/', 'ImagesController@index')
+    ->name('images.index');
