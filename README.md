@@ -11,7 +11,8 @@
 - npm run prod
 - install docker and docker-compose
 - cd riak
-- docker-compose scale coordinator=1 member=2
+- docker-compose up -d coordinator
+- docker-compose scale member=2
 - docker-compose ps
 - specify riak nodes ports in .env file (you can see them in `docker-compose ps` output)
 ```
